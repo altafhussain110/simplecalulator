@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta
+        name="description"
+        content=""
+    ></meta>
+
+    <meta
+        name="author"
+        content="Stuart Robson, Always Twisted, stu@alwaystwisted.com"
+    ></meta>
+
+    <meta
+        name="viewport"
+        content="width=device-width,initial-scale=1"
+    ></meta>
+
+    <title>Basic JavaScript Calculator</title>
+
+    <link
+        rel="stylesheet"
+        type="text/css"
+        href="JS calculator.css"
+    ></link>
+</head>
+
+<body>
+    <h1>Made Altaf Husasin</h1>
+
+    <div id="container">
+        <form name="calc">
+            <input
+                type="text"
+                name="output"
+                placeholder="0"
+                disabled="disabled"
+            ></input>
+
+            <br>
+
+            <input
+                type="button"
+                value="1"
+                onclick="entries('1')"
+            ></input>
+
+            <input
+                type="button"
+                value="2"
+                onclick="entries('2')"
+            ></input>
+
+            <input
+                type="button"
+                value="3"
+                onclick="entries('3')"
+            ></input>
+
+            <input
+                type="button"
+                value="/"
+                onclick="entries('/')"
+            ></input>
+
+            <br>
+
+            <input
+                type="button"
+                value="4"
+                onclick="entries('4')"
+            ></input>
+
+            <input
+                type="button"
+                value="5"
+                onclick="entries('5')"
+            ></input>
+
+            <input
+                type="button"
+                value="6"
+                onclick="entries('6')"
+            ></input>
+
+            <input
+                type="button"
+                value="x"
+                onclick="entries('*')"
+            ></input>
+
+            <br>
+
+            <input
+                type="button"
+                value="7"
+                onclick="entries('7')"
+            ></input>
+
+            <input
+                type="button"
+                value="8"
+                onclick="entries('8')"
+            ></input>
+
+            <input
+                type="button"
+                value="9"
+                onclick="entries('9')"
+            ></input>
+
+            <input
+                type="button"
+                value="-"
+                onclick="entries('-')"
+            ></input>
+
+            <br>
+
+            <input
+                type="button"
+                value="("
+                onclick="entries('(')"
+            ></input>
+
+            <input
+                type="button"
+                value=")"
+                onclick="entries(')')"
+            ></input>
+
+            <input
+                type="button"
+                value="0"
+                onclick="entries('0')"
+            ></input>
+
+            <input
+                type="button"
+                value="+"
+                onclick="entries('+')"
+            ></input>
+
+            <br>
+
+            <input
+                type="button"
+                value="c"
+                onclick="erase()"
+            ></input>
+
+            <input
+                type="button"
+                value="."
+                onclick="entries('.')"
+            ></input>
+
+            <input
+                type="button"
+                value="="
+                onclick="calculate()"
+            ></input>
+
+            <input
+                type="button"
+                value="%"
+                onclick="entries('%')"
+            ></input>
+
+            <br>
+        </form>
+    </div>
+
+    <br>
+
+    <script
+        type="text/javascript"
+        src="JSCalculator.js"
+    ></script>
+</body>
+</html>
